@@ -7,6 +7,7 @@ export const PromotionCardContainer = styled.div`
     display:flex;
     padding:15px;
     align-items:flex-start;
+    margin-bottom:20px;
 `;
 export const PromotionCardImage = styled.img`
     max-width:100px;
