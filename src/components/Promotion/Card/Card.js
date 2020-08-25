@@ -14,7 +14,7 @@ import {
 export default function PromotionCard({promotion}){
     return(
         <PromotionCardContainer>
-            <PromotionCardImage src={promotion.imageUrl}/>
+            <PromotionCardImage src={promotion.imageUrl} alt={promotion.title}/>
             <PromotionCardInfoContainer>
                 <PromotionCardTitle>{promotion.title}</PromotionCardTitle>
                 <PromotionCardPrice>R$ {promotion.price}</PromotionCardPrice>

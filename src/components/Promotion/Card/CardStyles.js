@@ -7,7 +7,7 @@ export const PromotionCardContainer = styled.div`
     display:flex;
     padding:15px;
     align-items:flex-start;
-`
+`;
 export const PromotionCardImage = styled.img`
     max-width:100px;
     margin-right:20px;
@@ -28,17 +28,17 @@ export const PromotionCardPrice= styled.span`
 export const PromotionCardFooter= styled.footer`
     display:flex;
     align-items:center;
-`
+`;
 export const PromotionCardCommentsCount= styled.div`
     margin-left:auto;
     margin-right:20px;
     color:#3498db;
-`
+`;
 
 export const PromotionCardComments= styled.div`
     color: #95A5a6;
     font-weight:700;
-`
+`;
 
 export const PromotionCardLink = styled.a`
     border: 1px solid #3498D8;
